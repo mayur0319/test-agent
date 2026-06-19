@@ -1,9 +1,5 @@
 provider "aws" {
-  region = "eu-west-2"
-}
-
-variable "bucket_name_prefix" {
-  default = "mayur-terrafrom-agent-1"
+  region = var.region
 }
 
 resource "random_id" "suffix" {
