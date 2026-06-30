@@ -80,6 +80,6 @@ output "bucket_name" {
   value = aws_s3_bucket.example.bucket
 }
 
-# output "bucket_name_dev" {
-#  value = aws_s3_bucket.example_dev.bucket
-# }
+output "bucket_name_dev" {
+ value = aws_s3_bucket.example_dev.bucket
+}
